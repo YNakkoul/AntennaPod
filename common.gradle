@@ -46,10 +46,10 @@ android {
 
     lintOptions {
         disable "GradleDependency"
-        checkDependencies true
-        warningsAsErrors true
-        abortOnError true
-        checkGeneratedSources = true
+        checkDependencies false
+        warningsAsErrors false
+        abortOnError false
+        checkGeneratedSources = false
     }
 
     buildFeatures {
